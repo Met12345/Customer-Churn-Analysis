@@ -1,0 +1,5 @@
+Churn Rate = 
+DIVIDE(
+    CALCULATE(COUNT('Table'[Churn]), 'Table'[Churn] = 1),
+    COUNT('Table'[Churn])
+)
